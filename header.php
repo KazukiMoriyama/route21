@@ -110,7 +110,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="<?php echo esc_url(home_url('contact')); ?>">お問合わせ</a>
+                            <a href="<?php echo esc_url(home_url('contact')); ?>">お問い合わせ</a>
                         </li>
                     </ul>
                 </nav>

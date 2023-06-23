@@ -64,7 +64,7 @@
                         <td>株式会社ルート21</td>
                     </tr>
                     <tr>
-                        <th>本社関東商品センター</th>
+                        <th>本社/関東営業所/<br class="pc_only">関東商品センター</th>
                         <td>
                             〒340-0835 埼玉県八潮市浮塚926-1<br>
                             TEL 048-994-2009<br>
@@ -72,7 +72,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>中部商品センター</th>
+                        <th>中部営業所/<br class="pc_only">中部商品センター</th>
                         <td>
                             〒452-0932 愛知県清須市朝日愛宕23-1<br>
                             TEL 052-938-3413<br>
@@ -80,11 +80,17 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>関西商品センター</th>
+                        <th>関西営業所/<br class="pc_only">関西商品センター</th>
                         <td>
                             〒581-0039 大阪府八尾市太田新町7-200<br>
                             TEL 072-943-1121<br>
                             FAX 072-943-1125
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>営業統括本部</th>
+                        <td>
+                            〒340-0816 　埼玉県八潮市中央1-18-16
                         </td>
                     </tr>
                     <tr>
@@ -228,21 +234,21 @@
             <h2 class="mincho">アクセス</h2>
             <ul>
                 <li>
-                    <h3>本社関東商品センター</h3>
+                    <h3>本社/関東営業所/関東商品センター</h3>
                     <p>〒340-0835 埼玉県八潮市浮塚926-1</p>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.050074148617!2d139.8309351!3d35.798704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018903c253d313b%3A0x62814076e378b578!2z44CSMzQwLTA4MzUg5Z-8546J55yM5YWr5r2u5biC5rWu5aGa77yZ77yS77yW4oiS77yR!5e0!3m2!1sja!2sjp!4v1686989159338!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </li>
                 <li>
-                    <h3>中部商品センター</h3>
+                    <h3>中部営業所/中部商品センター</h3>
                     <p>〒452-0932 愛知県清須市朝日愛宕23-1</p>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.387483322041!2d136.8496942!3d35.2217231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600375098aba94ed%3A0x755de9347d2f256c!2z44CSNDUyLTA5MzIg5oSb55-l55yM5riF6aCI5biC5pyd5pel5oSb5a6V77yS77yT4oiS77yR!5e0!3m2!1sja!2sjp!4v1686989183582!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </li>
                 <li>
-                    <h3>関西商品センター</h3>
+                    <h3>関西営業所/関西商品センター</h3>
                     <p>〒581-0039 大阪府八尾市太田新町7-200</p>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5433778220327!2d135.5988155!3d34.59041880000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000d8819acc7f81%3A0xe42a1e76429f81db!2z44CSNTgxLTAwMzkg5aSn6Ziq5bqc5YWr5bC-5biC5aSq55Sw5paw55S677yX5LiB55uu77yS77yQ77yQ!5e0!3m2!1sja!2sjp!4v1686989203516!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/company/kansai.webp" alt="" loading="lazy">
-                    <p class="text">受付はこちらの窓口からお願いします</p>
+                    <p class="text">西側の細い通りに面した、2階事務所から受付をお願いします。</p>
                 </li>
             </ul>
         </div>
