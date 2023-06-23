@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main class="l-main contact2">
+<main class="l-main contact">
     <div class="p-entry__form l-content">
         <div class="p-entry-heading c-heading l-content__inner">
             <h2 class="c-heading__primary">応募フォーム</h2>

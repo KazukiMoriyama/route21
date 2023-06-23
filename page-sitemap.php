@@ -57,7 +57,7 @@
             </li>
             <li class="item">
                 <div class="page_title">
-                    <a href="<?php echo esc_url(home_url('entry')); ?>">採用応募フォーム</a>
+                    <a href="<?php echo esc_url(home_url('careers')); ?>">採用応募フォーム</a>
                 </div>
             </li>
             <li class="item">

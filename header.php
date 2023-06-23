@@ -59,7 +59,7 @@
                 <div class="logo">
                     <a class="logo-header" href='<?php echo esc_url(home_url()); ?>'>
                         <picture>
-                            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo.svg" media="(min-width: 920px)">
+                            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo.svg?1" media="(min-width: 920px)">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo_sp.svg" alt="" loading="lazy" />
                         </picture>
                     </a>
@@ -110,7 +110,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="<?php echo esc_url(home_url('contact')); ?>">総合問い合わせ</a>
+                            <a href="<?php echo esc_url(home_url('contact')); ?>">お問合わせ</a>
                         </li>
                     </ul>
                 </nav>
@@ -158,7 +158,6 @@
                                 <a href="<?php echo esc_url(home_url('voices')); ?>">人を知る</a>
                                 <a href="<?php echo esc_url(home_url('environment')); ?>">働く仲間を知る</a>
                                 <a href="<?php echo esc_url(home_url('careers')); ?>">募集要項</a>
-                                <a href="<?php echo esc_url(home_url('entry')); ?>">応募エントリー</a>
                             </div>
                         </li>
                     </ul>

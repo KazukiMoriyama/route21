@@ -11,7 +11,7 @@
                 </div>
                 <div class="c-message__content-body">
                     <div class="c-message__content-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/other/message01.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/other/message01.jpg?1" alt="">
                     </div>
                     <div class="c-message__content-text">
                         <p class="c-message__content-title">これからの社会に必要とされる<br>「物流」「介護・福祉」の仕事に<br>挑戦してみませんか？</p>
@@ -73,7 +73,7 @@
     </div>
 
     <div class="c-button p-recruit-button wow fadeInUp" data-wow-duration="2s">
-        <a href="<?php echo esc_url(home_url('entry')); ?>" class="c-button__entry">
+        <a href="<?php echo esc_url(home_url('careers')); ?>" class="c-button__entry">
             <p class="c-button__entry-text">エントリーはこちら</p>
             <div class="c-button__entry-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/other/button-illust.png" alt=""></div>
         </a>

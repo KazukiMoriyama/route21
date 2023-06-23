@@ -16,15 +16,15 @@ function my_theme_enqueue_styles()
 
     // それぞれのページ群のスラッグ配列
     $group1_slugs = array('about', 'company', "strength", "business", "business01", "business02", "business03", "business04", "company", "news", "sitemap", "privacy-policy");  // ここにスラッグを追加
-    $group2_slugs = array('about', 'careers', "entry", "environment", "recruit", "voices", "voice01", "voice02", "voice03", "voice04", "voice05", "job", "job-style01", "job-style02", "job-style03", "job-style04", "job-style05", "contact", "confirm", "confirm2", "thanks", "thanks2", "kanto", "chubu", "kansai");  // ここにスラッグを追加
+    $group2_slugs = array('about', 'careers', "environment", "recruit", "voices", "voice01", "voice02", "voice03", "voice04", "voice05", "job", "job-style01", "job-style02", "job-style03", "job-style04", "job-style05", "contact", "confirm", "confirm2", "thanks", "thanks2", "kantou", "chubu", "kansai","kantou-confirm","chubu-confirm","kansai-confirm","kantou-success","chubu-success","kansai-success");  // ここにスラッグを追加
 
-    // ページ群1（スラッグ：about, company）
+    // ページ群1
     if (is_front_page() || is_single() || in_array($slug, $group1_slugs)) {
         wp_enqueue_style('style', get_template_directory_uri() . '/assets/css/styles.css', array('my_common'), $css_version);
         wp_enqueue_style('animate', get_template_directory_uri() . '/assets/css/animate.css', array('my_common'), $css_version);
     }
 
-    // ページ群2（スラッグ：voice, entry）
+    // ページ群2
     if (!is_front_page() && in_array($slug, $group2_slugs)) {
         wp_enqueue_style('style-min', get_template_directory_uri() . '/assets/css/style.min.css', array('my_common'), $css_version);
         wp_enqueue_style('style2', get_template_directory_uri() . '/assets/css/style2.css', array('my_common'), $css_version);
@@ -152,24 +152,3 @@ add_filter('jpeg_quality', function ($arg) {
 });
 remove_filter('the_content', 'wpautop'); // 記事の自動整形を無効にする
 remove_filter('the_excerpt', 'wpautop'); // 抜粋の自動整形を無効にする
-
-function create_careers_cpt()
-{
-    $labels = array(
-        'name' => __('募集要項', 'Post Type General Name', 'textdomain'),
-        'singular_name' => __('Career', 'Post Type Singular Name', 'textdomain'),
-        // 他のラベルもここに配置
-    );
-    $args = array(
-        'label' => __('Career', 'textdomain'),
-        'labels' => $labels,
-        'supports' => array('title', 'editor'),
-        'public' => true,
-        'hierarchical' => false,
-        'has_archive' => true,
-        'rewrite' => array('slug' => 'recruit/careers', 'with_front' => false)
-        // 他の引数もここに配置
-    );
-    register_post_type('careers', $args);
-}
-add_action('init', 'create_careers_cpt', 0);

@@ -13,10 +13,11 @@
                 お届けするのは、安心です。
             </h1>
         </div>
-        <picture>
+        <!-- <picture>
             <source srcset="<?php echo get_template_directory_uri(); ?>/assets/images/top/fv.webp" media="(min-width: 769px)">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/sp/fv_sp.webp" alt="" loading="lazy" />
-        </picture>
+        </picture> -->
+        <video src="<?php echo get_template_directory_uri(); ?>/assets/images/top/movie.mp4" type="video/mp4" autoplay loop muted playsinline></video>
     </div>
     <section class="sec1 wow fadeInUp" data-wow-duration="2s">
         <div class="content">

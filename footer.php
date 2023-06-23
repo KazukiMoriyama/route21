@@ -42,13 +42,14 @@
             <a href="<?php echo esc_url(home_url('about')); ?>">会社を知る</a>
             <a href="<?php echo esc_url(home_url('voices')); ?>">人を知る</a>
             <a href="<?php echo esc_url(home_url('careers')); ?>">募集要項</a>
-            <a href="<?php echo esc_url(home_url('entry')); ?>">応募エントリー</a>
         </div>
     </li>
 </ul>
 <footer class="footer" id="footer">
     <div class="footer_logo pc_only">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo.svg" alt="" loading="lazy">
+        <a href="<?php echo esc_url(home_url('')); ?>">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo.svg?1" alt="" loading="lazy">
+        </a>
     </div>
     <div class="footer_inner">
         <nav class="pc_only">
@@ -69,7 +70,6 @@
                     <a href="<?php echo esc_url(home_url('about')); ?>">会社を知る</a>
                     <a href="<?php echo esc_url(home_url('voices')); ?>">人を知る</a>
                     <a href="<?php echo esc_url(home_url('careers')); ?>">募集要項</a>
-                    <a href="<?php echo esc_url(home_url('entry')); ?>">応募エントリー</a>
                 </li>
                 <li>
                     <a href="<?php echo esc_url(home_url('company/#company02')); ?>">企業理念</a>

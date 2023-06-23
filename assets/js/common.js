@@ -15,7 +15,7 @@ $(document).ready(function () {
         if ($(window).width() >= 920) {
             if ($(this).scrollTop() > 300) {
                 $('#header').addClass('fixed');
-                $('main').css('margin-top', '170px');
+                $('main').css('margin-top', '120px');
             } else {
                 $('#header').removeClass('fixed');
                 $('main').css('margin-top', '0');

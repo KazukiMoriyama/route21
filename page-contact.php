@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main class="l-main contact2">
+<main class="l-main contact">
     <section class="p-entry l-content">
         <div class="p-entry__form">
             <div class="p-entry-heading c-heading l-content__inner">

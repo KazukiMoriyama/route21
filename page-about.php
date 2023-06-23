@@ -7,8 +7,8 @@
         <div class="p-about__figure">
             <div class="p-about__figure-top">
                 <div class="p-about__figure-top-item">
-                    <p class="p-about__figure-text p-about__figure-text--mb">平均年<br><span class="p-about__figure-bigtext">32</span>歳</p>
-                    <p class="p-about__figure-text">平均残業時間<br><span class="p-about__figure-bigtext">20</span>時間</p>
+                    <p class="p-about__figure-text p-about__figure-text--mb">平均年齢<br><span class="p-about__figure-bigtext">44</span>歳</p>
+                    <p class="p-about__figure-text">平均残業時間<br><span class="p-about__figure-bigtext">50</span>時間</p>
                 </div>
                 <div class="p-about__figure-top-item">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/other/about-figure.png" alt="スタッフの年代・勤続年数を表した図">
@@ -109,7 +109,7 @@
         </div>
 
         <div class="c-button p-recruit-button wow fadeInUp" data-wow-duration="2s">
-            <a href="<?php echo esc_url(home_url('entry')); ?>" class="c-button__entry">
+            <a href="<?php echo esc_url(home_url('careers')); ?>" class="c-button__entry">
                 <p class="c-button__entry-text">エントリーはこちら</p>
                 <div class="c-button__entry-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/other/button-illust.png" alt=""></div>
             </a>

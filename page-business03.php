@@ -63,7 +63,7 @@
     </div>
     <div class="business_select wow fadeInUp" data-wow-duration="2s">
         <ul>
-           <li>
+            <li>
                 <a href="<?php echo esc_url(home_url('business01')); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_page_img01.webp" alt="" loading="lazy">
                     <p>福祉用具配送部</p>

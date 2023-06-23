@@ -20,18 +20,15 @@
                     <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/company/slide/slide06.jpg" alt=""></li>
                 </ul>
                 <div class="inner">
-                    <p>企業ビジョン</p>
-                    <h3 class="mincho">Speed & Safety</h3>
-                    <p>迅速から安心へ</p>
+                    <p>企業理念</p>
+                    <h3 class="mincho">人のしあわせを私たちの成長に</h3>
                 </div>
             </div>
         </div>
     </section>
     <section class="company_sec2 wow fadeInUp" data-wow-duration="2s" id="company02">
         <div class="content">
-            <h2 class="mincho">経営理念</h2>
-            <h3>人のしあわせを私たちの成長に</h3>
-            <h4>社是</h4>
+            <h2 class="mincho">社是</h2>
             <ol>
                 <li>私たちは、商品とサービスを通じて「健康長寿」をサポートしてまいります</li>
                 <li>私たちは、もっと「できるはず」に挑戦してまいります</li>
@@ -44,7 +41,7 @@
             <h2 class="mincho">代表ご挨拶</h2>
             <figure>
                 <figcaption>ルート21は、軽トラック１台の小さな運送会社からスタートしました。その当時から大切にしていたのは、お客様の声に耳を傾け、可能な限りそれに応えること。福祉用具を運搬し、ご利用者様が安全にお使いいただくための設置や取り扱い説明をする、さらにはリユースのために回収した福祉用具を洗浄・殺菌するという、当社独自のビジネスモデルは、すべてお客様のご要望から生したものでした。これからも私たちは、これまで培った流通や福祉用品取り扱いに関するノウハウ、そしてお客様のニーズを形にするための挑戦を力に、社会に貢献できる企業として成長していきます。</figcaption>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/company/img_01.webp" alt="" loading="lazy">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/company/company.jpg" alt="" loading="lazy">
             </figure>
         </div>
     </section>
@@ -53,7 +50,7 @@
             <h2 class="mincho">ロゴのご紹介</h2>
             <figure>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo.svg" alt="" loading="lazy">
-                <figcaption>新しいロゴは、シンプルでモダンなデザインを特徴とし、鮮やかな色彩が印象的です。抽象的な形状はクリエイティビティと進歩を象徴し、円環のモチーフは統合と連帯を表現しています。<br>文字はクリーンで読みやすく、ブランドのアイ デンティティと認識性を高めています。この新しいロゴは、現代的で魅力的なイメージを伝え、ブランドの成長と進化を示しています。</figcaption>
+                <figcaption>ルート21のグループロゴが新しくなりました。「ROUTE」の頭文字である「R」をモチーフに、信頼の青と情熱の赤が重なり道となって続いていくイメージは、ROUTE（道）がどこまでも発展していく願いが込められています。これまで積み重ねてきた一つひとつの「ありがとう」の言葉を大切に、更なる飛躍とチャレンジを続けていく想いがシンボルとなりました。</figcaption>
             </figure>
         </div>
     </section>
@@ -147,32 +144,80 @@
             <table>
                 <tbody>
                     <tr>
-                        <th>0000年</th>
-                        <td>文章が入ります</td>
+                        <th><span>1999年</span>1月</th>
+                        <td>東京都荒川区にて軽貨物運送業を創業</td>
                     </tr>
                     <tr>
-                        <th>0000年</th>
-                        <td>文章が入ります</td>
+                        <th><span>2002年</span>5月</th>
+                        <td>有限会社ルート２１を設立　資本金600万円とする</td>
                     </tr>
                     <tr>
-                        <th>0000年</th>
-                        <td>文章が入ります</td>
+                        <th><span>2005年</span>2月</th>
+                        <td>東京都 産業廃棄物収集運搬業許可証を取得す</td>
                     </tr>
                     <tr>
-                        <th>0000年</th>
-                        <td>文章が入ります</td>
+                        <th><span>2007年</span>2月</th>
+                        <td>一般貨物自動車運送事業許可証を取得</td>
                     </tr>
                     <tr>
-                        <th>0000年</th>
-                        <td>文章が入ります</td>
+                        <th><span>2009年</span>2月</th>
+                        <td>埼玉県八潮市に移転</td>
+                    </tr>
+                    <tr class="none_border">
+                        <th class="pc_only"><span></span>2月</th>
+                        <td>福祉用具洗浄・消毒センターを開設</td>
+                    </tr>
+                    <tr class="none_border">
+                        <th class="pc_only"><span></span>2月</th>
+                        <td>（一社）シルバーサービス振興会　福祉用具消毒工程管理認定証を取得</td>
                     </tr>
                     <tr>
-                        <th>0000年</th>
-                        <td>文章が入ります</td>
+                        <th><span>2013年</span>10月</th>
+                        <td>愛知県清須市に中部商品センター開設</td>
+                    </tr>
+                    <tr class="none_border">
+                        <th class="pc_only"><span></span>10月</th>
+                        <td>大阪府八尾市に関西商品センター開設</td>
                     </tr>
                     <tr>
-                        <th>0000年</th>
-                        <td>文章が入ります</td>
+                        <th><span>2014年</span>1月</th>
+                        <td>株式会社ルート２１に組織変更 資本金2000万円とする</td>
+                    </tr>
+                    <tr class="none_border">
+                        <th><span></span>7月</th>
+                        <td>神奈川県 産業廃棄物収集運搬業許可証を取得</td>
+                    </tr>
+                    <tr class="none_border">
+                        <th><span></span>8月</th>
+                        <td>千葉県 産業廃棄物収集運搬業許可証を取得</td>
+                    </tr>
+                    <tr class="none_border">
+                        <th><span></span>8月</th>
+                        <td>埼玉県 産業廃棄物収集運搬業許可証を取得</td>
+                    </tr>
+                    <tr class="none_border">
+                        <th><span></span>10月</th>
+                        <td>中部営業所開設</td>
+                    </tr>
+                    <tr class="none_border">
+                        <th class="pc_only"><span></span>10月</th>
+                        <td>関西営業所開設</td>
+                    </tr>
+                    <tr>
+                        <th><span>2016年</span>6月</th>
+                        <td>福祉用具貸与事業所を埼玉県八潮市に開設</td>
+                    </tr>
+                    <tr>
+                        <th><span>2020年</span>6月</th>
+                        <td>社会福祉法人　青樹会 理事長に宮城代表取締役が就任</td>
+                    </tr>
+                    <tr>
+                        <th><span>2021年</span>2月</th>
+                        <td>埼玉県川越市に株式会社クリーンテクノサービス設立</td>
+                    </tr>
+                    <tr class="none_border">
+                        <th class="pc_only"><span></span>2月</th>
+                        <td>川越商品センター開設</td>
                     </tr>
                 </tbody>
             </table>
@@ -196,6 +241,8 @@
                     <h3>関西商品センター</h3>
                     <p>〒581-0039 大阪府八尾市太田新町7-200</p>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5433778220327!2d135.5988155!3d34.59041880000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000d8819acc7f81%3A0xe42a1e76429f81db!2z44CSNTgxLTAwMzkg5aSn6Ziq5bqc5YWr5bC-5biC5aSq55Sw5paw55S677yX5LiB55uu77yS77yQ77yQ!5e0!3m2!1sja!2sjp!4v1686989203516!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/company/kansai.webp" alt="" loading="lazy">
+                    <p class="text">受付はこちらの窓口からお願いします</p>
                 </li>
             </ul>
         </div>

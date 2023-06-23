@@ -453,7 +453,7 @@ th {
 body {
     color: #333;
     font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", YuGothic, "Yu Gothic", sans-serif;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
 img {
@@ -495,7 +495,7 @@ c-button
 .c-button__entry {
     border: 2px solid #1262A9;
     display: block;
-    padding: 30px 0 60px;
+    padding: 30px 0;
 }
 
 .c-button__entry-text {
@@ -677,7 +677,7 @@ c-more
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0.05em;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
 .c-more__arrow {
@@ -976,7 +976,7 @@ p-voice-shingle
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0.03em;
-    line-height: 1.5;
+    line-height: 1.8;
     margin-bottom: 1.875rem;
 }
 
@@ -1158,7 +1158,7 @@ p-service-shingle-shingle
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0.03em;
-    line-height: 1.5;
+    line-height: 1.8;
     margin-bottom: 1.875rem;
 }
 
@@ -1211,8 +1211,12 @@ p-environment
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0.03em;
-    line-height: 1.5;
+    line-height: 1.8;
     margin-bottom: 1.875rem;
+}
+
+.p-environment__item-office-text {
+    line-height: 1.8;
 }
 
 .p-environment__bg::before {
@@ -1368,6 +1372,11 @@ p-careers
     flex-direction: row-reverse;
 }
 
+.p-careers__item-img img {
+    width: 530px;
+    height: 370px;
+}
+
 .p-careers__item-inner {
     -moz-column-gap: 5.875rem;
     column-gap: 5.875rem;
@@ -1384,7 +1393,7 @@ p-careers
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0.03em;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
 .p-careers-button__more {
@@ -1429,7 +1438,7 @@ p-entry
     font-size: 1.125rem;
     font-weight: 600;
     letter-spacing: 0em;
-    line-height: 1.5;
+    line-height: 1.8;
     width: 100%;
 }
 
@@ -1464,7 +1473,7 @@ form
     font-size: 1.125rem;
     font-weight: 600;
     letter-spacing: 0em;
-    line-height: 1.5;
+    line-height: 1.8;
     margin-bottom: 3.125rem;
 }
 
@@ -1537,7 +1546,7 @@ textarea:focus {
     font-size: 1.125rem;
     font-weight: 600;
     letter-spacing: 0em;
-    line-height: 1.5;
+    line-height: 1.8;
     line-height: 1.6;
     margin-right: 1.25rem;
     width: 266px;
@@ -1549,7 +1558,7 @@ textarea:focus {
     font-size: 0.8125rem;
     font-weight: 600;
     letter-spacing: 0em;
-    line-height: 1.5;
+    line-height: 1.8;
     margin-left: 0.9375rem;
     padding: 0.1875rem 0.5rem;
     vertical-align: 2px;
@@ -1594,7 +1603,7 @@ textarea:focus {
     font-size: 1.125rem;
     font-weight: 600;
     letter-spacing: 0em;
-    line-height: 1.5;
+    line-height: 1.8;
     padding-left: 34px;
     position: relative;
 }
@@ -1718,7 +1727,7 @@ p-confirm
     font-size: 1.125rem;
     font-weight: 600;
     letter-spacing: 0em;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
 .form-entry-button {
@@ -2082,6 +2091,11 @@ utility
         row-gap: 0.9375rem;
     }
 
+    .p-careers__item-img img {
+        width: 100%;
+        height: auto;
+    }
+
     .p-careers__item-title {
         font-size: 1.125rem;
     }
@@ -2197,7 +2211,7 @@ utility
     font-size: 1.125rem;
     font-weight: 600;
     letter-spacing: 0em;
-    line-height: 1.5;
+    line-height: 1.8;
     padding-left: 34px;
     position: relative;
 }
@@ -2293,7 +2307,7 @@ utility
     display: none;
 }
 
-.contact2 .p-entry__form {
+.contact .p-entry__form {
     padding-bottom: 120px;
 }
 
@@ -2302,7 +2316,7 @@ utility
         margin-left: 0;
     }
 
-    .contact2 .p-entry__form {
+    .contact .p-entry__form {
         padding-bottom: 50px;
     }
 
@@ -2311,7 +2325,7 @@ utility
     }
 }
 
-.contact2 .btn {
+.contact .btn {
     width: 140px;
     display: block;
     text-align: center;
